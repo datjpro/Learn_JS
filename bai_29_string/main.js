@@ -19,3 +19,8 @@ console.log(ten[3]); // n
 //4. thuoc tinh length
 let dongvat = "con meo";
 console.log(dongvat.length); // 7
+
+//5.1. phương thức cắt chuỗi slice, substring, substr
+let s4 = "0123456789";
+let s5 = s4.slice(2, 6); //cắt từ vị trí 2 đến 6-1
+console.log(s5);
