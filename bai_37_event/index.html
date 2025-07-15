@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>37 - Event - inline event</title>
+  </head>
+  <body>
+    <h1>Học event inline</h1>
+    <button onclick="alert('Bạn đã nhấp vào nút này!!')">Click me!</button>
+    <button ondblclick="alert('Bạn đã nhấp đúp vào nút này!!')">
+      Click me!
+    </button>
+    <div
+      onmouseover="this.style.backgroundColor = 'yellow'"
+      onmouseleave="this.parentElement.style.backgroundColor = 'red'"
+    >
+      di chuyển con trỏ lên đây
+    </div>
+    <input type="text" onkeypress="alert('Bạn đã nhấn phím!')" />
+    <script src="main.js"></script>
+  </body>
+</html>
